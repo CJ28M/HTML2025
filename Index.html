@@ -4,11 +4,168 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title> HTML 2025 Notes</title>
 </head>
 
 <body>
-  <p>text</p>
+  <h1 id="main-heading" class="heading">Hyper Text Markup Language</h1>
+  <nav>
+    <a href="/github.html">Github Repository |</a>
+    <a href="/tables.html"> Tables |</a>
+    <a href=""> text |</a>
+    <a target="_blank" href="www.developer.mozilla.org"> MDN Web Docs |</a>
+    <a target="_blank" href="www.w3schools.com"> W3schools </a>
+  </nav>
+  <article>
+    <section>
+      <h2 class="heading">section heading</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ratione mollitia, quae cumque veniam aut,
+        ipsum
+        reprehenderit, maxime dolorum autem ut. Tempora blanditiis dolor sunt magnam inventore itaque ad, obcaecati
+        temporibus doloribus debitis earum animi velit consectetur et, expedita magni ut sit pariatur. Assumenda,
+        asperiores quia! Quibusdam harum cupiditate, explicabo quidem vitae, quas asperiores vero dicta repellat
+        temporibus consequatur unde voluptatum deserunt. Aut porro voluptatum id provident et voluptates ab natus. Nam,
+        voluptates consequatur molestiae praesentium maiores non obcaecati soluta enim quos doloremque placeat omnis hic
+        dicta qui labore quas cumque ipsa saepe, minima fugit fugiat natus rem? Nostrum, consequatur!</p>
+      <div>
+        <h3 class="heading">subsection heading</h3>
+        <h4 class="heading">heading level 4</h4>
+        <h5 class="heading">heading level 5</h5>
+        <h6 class="heading">heading level 6</h6>
+        <p>h4,h5,h6 titles for more subsections of subsections</p>
+      </div>
+      <div>
+        <h3 class="heading">heading level 3 Anchors (hyperlinks)</h3>
+        <ul>
+          <li><a target="_blank" href="https://google.com">URL Link Google to a new tab</a></li>
+          <li><a href="/Index.html">Goes to another page (main)</a></li>
+          <li><a href="#lists">scroll to the internal section (Lists)</a></li>
+          <li><a href="#listchild">List Child</a></li>
+          <li><a href="mailto:xx@yyy.com">email link</a></li>
+          <li><a href="tel:+12025194560">Phone number link</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 id="small-heading" class="heading">heading level 4 resources</h4>
+        <ul>
+          <li><a target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">headings</a></li>
+          <li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories">Content
+              categories</a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2 id="lists">Types of Lists</h2>
+      <h3>Bullet Points</h3>
+      <ul id="elements-list" class="unordered-list">
+        <li id="paragraphs" class="list-item">Paragraphs</li>
+        <li>Headings</li>
+        <li>Anchors</li>
+        <li>Images</li>
+        <li>Lists</li>
+      </ul>
+      <h3>Numbers</h3>
+      <ol id="numbers" class="ordered-list">
+        <li>Create a project folder</li>
+        <li>Open the folder with VScode</li>
+        <li>Create an index.html file</li>
+        <li>Add the HTML boilerplate</li>
+        <li>Change the title value</li>
+        <li>Start the live Server</li>
+      </ol>
+      <h3>Continuing Numbers</h3>
+      <ol start="7">
+        <li>Create a project folder</li>
+        <li>Open the folder with VScode</li>
+        <li>Create an index.html file</li>
+        <li>Add the HTML boilerplate</li>
+        <li>Change the title value</li>
+        <li>Start the live Server</li>
+      </ol>
+      <h3>Lowercase </h3>
+      <ol type="a">
+        <li>Create a project folder</li>
+        <li>Open the folder with VScode</li>
+        <li>Create an index.html file</li>
+        <li>Add the HTML boilerplate</li>
+        <li>Change the title value</li>
+        <li>Start the live Server</li>
+      </ol>
+      <h3>Uppercase</h3>
+      <ol start="7" type="A">
+        <li>Create a project folder</li>
+        <li>Open the folder with VScode</li>
+        <li>Create an index.html file</li>
+        <li>Add the HTML boilerplate</li>
+        <li>Change the title value</li>
+        <li>Start the live Server</li>
+      </ol>
+      <h3>Roman numeral</h3>
+      <ol type="i">
+        <li>Create a project folder</li>
+        <li>Open the folder with VScode</li>
+        <li>Create an index.html file</li>
+        <li>Add the HTML boilerplate</li>
+        <li>Change the title value</li>
+        <li>Start the live Server</li>
+      </ol>
+      <h3>Uppercase roman numeral continuing</h3>
+      <ol start="7" type="I">
+        <li>Create a project folder</li>
+        <li>Open the folder with VScode</li>
+        <li>Create an index.html file</li>
+        <li>Add the HTML boilerplate</li>
+        <li>Change the title value</li>
+        <li>Start the live Server</li>
+      </ol>
+      <h3>Reversed and mix numbers</h3>
+      <ol id="steps-list" class="ordered-list-mix" reversed>
+        <li id="create-step" class="ordered-list-item">Create a project folder</li>
+        <li>Open the folder with VScode</li>
+        <li>Create an index.html file</li>
+        <li value="10">Add the HTML boilerplate</li>
+        <li>Change the title value</li>
+        <li>Start the live Server</li>
+      </ol>
+    </section>
+    <section id="listchild" class="child">
+      <h2>List Children</h2>
+      <ul>
+        <li>
+          <h4>Heading</h4>
+        </li>
+        <h3>paragraph child</h3>
+        <li>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reiciendis autem officiis et quia
+            harum nihil adipisci nam sapiente voluptates voluptatum dolore repellendus, praesentium dignissimos velit
+            fugiat fugit vero. Repellat!</p>
+        </li>
+        <h3>list in a unordered-list in a list-item</h3>
+        <li>
+          <ul>
+            <li>Unordered List Item 1</li>
+            <li>Unordered List Item 2</li>
+            <li>Unordered List Item 3</li>
+          </ul>
+        </li>
+        <h3>Ordered-list in a ordered-list in a list-item</h3>
+        <li>
+          <ol>
+            <li>Ordered List Item 1</li>
+            <li>Ordered List Item 2</li>
+            <li>Ordered List Item 3</li>
+          </ol>
+        </li>
+        <h3>Anchor in a list-item</h3>
+        <li>
+          <a href="">Some Link</a>
+        </li>
+      </ul>
+
+    </section>
+  </article>
 </body>
 
 </html>

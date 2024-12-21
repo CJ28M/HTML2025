@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tables</title>
+</head>
+
+<body>
+  <h1>Tables</h1>
+  <nav>
+    <a href="/Index.html">Html Home</a>
+    <a href="/github.html">Github</a>
+    <a href="">text</a>
+    <a href="">text</a>
+    <a href="">text</a>
+  </nav>
+  <h2>Vertical</h2>
+  <table id="vertical-table" class="super-table">
+    <caption>
+      Students List
+    </caption>
+    <colgroup>
+      <col class="green-col">
+      <col span="4" class="red-col">
+    </colgroup>
+    <thead>
+      <tr id="headers" class="table-headers">
+        <th>ID</th>
+        <th class="name" colspan="2">Full Name</th>
+        <th>Age</th>
+        <th>Academy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="first-id" class="table-data">1</td>
+        <td>John</td>
+        <td>Joe</td>
+        <td>29</td>
+        <td class="web" rowspan="5">Web</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Andrei</td>
+        <td>Obushni</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Jonathan</td>
+        <td>Higger</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Tyson</td>
+        <td>Judd</td>
+        <td>23</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Zak</td>
+        <td>Bay</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Mark</td>
+        <td>Smith</td>
+        <td>32</td>
+        <td>Marketing</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td class="total" colspan="5">There are 6 students total</td>
+      </tr>
+    </tfoot>
+  </table>
+  <h2>Horizontal</h2>
+  <table>
+    <caption>Students List</caption>
+    <tr>
+      <th>ID</th>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>First Name</th>
+      <td>John</td>
+      <td>Andrei</td>
+      <td>Jonathan</td>
+      <td>Tyson</td>
+      <td>Zak</td>
+      <td>Mark</td>
+    </tr>
+    <tr>
+      <th>Last Name</th>
+      <td>Doe</td>
+      <td>Obushnyi</td>
+      <td>Higger</td>
+      <td>Judd</td>
+      <td>Bay</td>
+      <td>Smith</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>29</td>
+      <td>25</td>
+      <td>43</td>
+      <td>23</td>
+      <td>19</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <th>Academy</th>
+      <td class="web" colspan="5">Web</td>
+      <td>Marketing</td>
+    </tr>
+    <tr>
+      <td class="total" colspan="7">There are 6 students total</td>
+    </tr>
+  </table><br>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">More on tables</a>
+</body>
+
+</html>
