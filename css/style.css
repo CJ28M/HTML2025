@@ -1,0 +1,110 @@
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 2px;
+}
+
+/* th { 
+  background-color: #f2f2f2;
+}*/
+
+.total {
+  text-align: center;
+  /*background-color: #f2f2f2;*/
+}
+
+.name,
+.web {
+  text-align: center;
+}
+
+.green-col {
+  background-color: lightgreen;
+}
+
+.red-col {
+  background-color: lightcoral;
+}
+
+#text-one {
+  color: red;
+}
+
+.element-name,
+.usage-name {
+  padding: 10px;
+  text-align: center;
+  background-color: beige;
+}
+
+.b,
+.strong,
+.i,
+.em,
+.var,
+.u,
+.ins,
+.s,
+.del,
+.sup,
+.sub {
+  text-align: center;
+}
+
+.b,
+b {
+  color: red;
+}
+
+.strong,
+strong {
+  color: orange;
+}
+
+.i,
+i {
+  color: green;
+}
+
+.em,
+em {
+  color: rgb(4, 255, 46);
+}
+.var,
+var {
+  color: darkgreen;
+}
+
+.u,
+u {
+  color: blue;
+}
+
+.ins,
+ins {
+  color: aqua;
+}
+
+.s,
+s {
+  color: rgb(4, 132, 174);
+}
+
+.del,
+del {
+  color: darkblue;
+}
+
+.sup,
+sup {
+  color: blueviolet;
+}
+
+.sub,
+sub {
+  color: rgb(255, 86, 221);
+}
